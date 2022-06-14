@@ -4,14 +4,23 @@ import { Observable } from 'rxjs';
 export default () => {
 	/** start coding */
 
-	const hello = new Observable((observer) => {
-		observer.next('Hello');
+	const hello = new Observable( (observer1) => {
+		observer1.next('Hello');
 		setTimeout(() => {
-			observer.next('world');		
+			observer1.next('World');
+			observer1.complete();
 		}, 2000);
 	});
 
-	const subscribe = hello.subscribe((event) => displayLog(event));
+	const observer = {
+		next: (evt) => displayLog(evt),
+		error: (err) => console.error('[ERR] - ', err),
+		complete: () => displayLog('[DONE]'),
+	};
+
+	const subscribe = hello.subscribe(observer);
+	const subscribe2 = hello.subscribe(observer);
+	subscribe.unsubscribe();
 
 	/** end coding */
 };
