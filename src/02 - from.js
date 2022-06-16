@@ -1,6 +1,9 @@
 import { displayLog } from './utils';
 import { from } from 'rxjs';
 
+// from: Crea un Observable a partir de un Array, un objeto similar a un Array,
+// una Promesa, un objeto iterable o un objeto similar a un Observable
+
 export default () => {
 	/** start coding */
 
