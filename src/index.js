@@ -6,7 +6,8 @@
 // import example from './05 - fromEvent';
 // import example from './06 - mapto-map-and-filter';
 // import example from './07 - tap';
-import example from './08 - first-take-takewhile';
+// import example from './08 - first-take-takewhile';
+import example from './09 - last-takelast-skip';
 
 //run stuff
 example();
