@@ -12,7 +12,8 @@
 // import example from './03 - utilidades/11 - startwith-endwidth';
 // import example from './03 - utilidades/12 - distinct-distinctuntilchanged';
 // import example from './03 - utilidades/13 - pairwise';
-import example from './03 - utilidades/14 - pluck';
+// import example from './03 - utilidades/14 - pluck';
+import example from './03 - utilidades/15 - share';
 
 //run stuff
 example();
