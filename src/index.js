@@ -10,7 +10,8 @@
 // import example from './02 - basicos/09 - last-takelast-skip';
 // import example from './02 - basicos/10 - reduce-scan';
 // import example from './03 - utilidades/11 - startwith-endwidth';
-import example from './03 - utilidades/12 - distinct-distinctuntilchanged';
+// import example from './03 - utilidades/12 - distinct-distinctuntilchanged';
+import example from './03 - utilidades/13 - pairwise';
 
 //run stuff
 example();
