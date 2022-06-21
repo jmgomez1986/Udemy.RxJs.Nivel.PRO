@@ -7,7 +7,8 @@
 // import example from './06 - mapto-map-and-filter';
 // import example from './07 - tap';
 // import example from './08 - first-take-takewhile';
-import example from './09 - last-takelast-skip';
+// import example from './09 - last-takelast-skip';
+import example from './10 - reduce-scan';
 
 //run stuff
 example();
