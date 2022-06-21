@@ -1,4 +1,4 @@
-import { displayLog } from './utils';
+import { displayLog } from '../utils';
 import { fromEvent } from 'rxjs';
 
 // fromevent: asocia una funcion a un event target concreto para emitir

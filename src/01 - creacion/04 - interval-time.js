@@ -1,4 +1,4 @@
-import { displayLog } from './utils';
+import { displayLog } from '../utils';
 import { interval, timer } from 'rxjs';
 
 // interval: Sirve para emitir una secuencia de valores cada cierto tiempo,

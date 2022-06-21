@@ -1,4 +1,4 @@
-import { displayLog } from './utils';
+import { displayLog } from '../utils';
 import { Observable } from 'rxjs';
 
 export default () => {

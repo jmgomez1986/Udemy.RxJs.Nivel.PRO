@@ -1,4 +1,4 @@
-import { displayLog } from './utils';
+import { displayLog } from '../utils';
 import { fromEvent } from 'rxjs';
 import { map, last, takeWhile, takeLast, skip, tap } from 'rxjs/operators';
 

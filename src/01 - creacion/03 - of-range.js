@@ -1,4 +1,4 @@
-import { displayLog } from './utils';
+import { displayLog } from '../utils';
 import { of, range } from 'rxjs';
 
 // of: Crea secuencia de observables a partir de cualquier cosa
