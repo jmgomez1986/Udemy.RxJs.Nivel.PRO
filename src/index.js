@@ -13,7 +13,8 @@
 // import example from './03 - utilidades/12 - distinct-distinctuntilchanged';
 // import example from './03 - utilidades/13 - pairwise';
 // import example from './03 - utilidades/14 - pluck';
-import example from './03 - utilidades/15 - share';
+// import example from './03 - utilidades/15 - share';
+import example from './03 - utilidades/16 - subject';
 
 //run stuff
 example();
