@@ -8,7 +8,8 @@
 // import example from './07 - tap';
 // import example from './08 - first-take-takewhile';
 // import example from './09 - last-takelast-skip';
-import example from './10 - reduce-scan';
+// import example from './10 - reduce-scan';
+import example from './11 - startwith-endwidth';
 
 //run stuff
 example();
