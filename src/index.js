@@ -15,7 +15,8 @@
 // import example from './03 - utilidades/14 - pluck';
 // import example from './03 - utilidades/15 - share';
 // import example from './03 - utilidades/16 - subject';
-import example from './04 - temporales/17 - sampletime-throttletime-audittime';
+// import example from './04 - temporales/17 - sampletime-throttletime-audittime';
+import example from './04 - temporales/18 - delay-buffer-time';
 
 //run stuff
 example();
