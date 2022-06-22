@@ -19,7 +19,8 @@
 // import example from './04 - temporales/18 - delay-buffer-time';
 // import example from './04 - temporales/19 - debouncetime';
 // import example from './05 - combinacion/20 - zip-merge';
-import example from './05 - combinacion/21 - concat-forkjoin';
+// import example from './05 - combinacion/21 - concat-forkjoin';
+import example from './05 - combinacion/22 - combinelatest-withlatestfrom';
 
 //run stuff
 example();
