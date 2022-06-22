@@ -20,7 +20,8 @@
 // import example from './04 - temporales/19 - debouncetime';
 // import example from './05 - combinacion/20 - zip-merge';
 // import example from './05 - combinacion/21 - concat-forkjoin';
-import example from './05 - combinacion/22 - combinelatest-withlatestfrom';
+// import example from './05 - combinacion/22 - combinelatest-withlatestfrom';
+import example from './05 - combinacion/23 - mergeall-mergemap';
 
 //run stuff
 example();
