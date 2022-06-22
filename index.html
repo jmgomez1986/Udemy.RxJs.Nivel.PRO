@@ -35,11 +35,11 @@
 				height: 4000px;
 			}
 
-			#log-container {
+			/* #log-container {
 				position: fixed;
 				top: 40px;
 				right: 20px;
-			}
+			} */
 
 			#progress-bar {
 				position: fixed;
@@ -62,10 +62,17 @@
 				left: 40px;
 				border: 2px solid;
 			}
-			#log-container {
+			/* #log-container {
 				position: fixed;
 				top: 40px;
 				right: 20px;
+			} */
+
+			#log-container {
+				position: fixed;
+				top: 80px;
+				right: 20px;
+				max-width: 320px;
 			}
 		</style>
 	</head>
@@ -90,8 +97,12 @@
     <input id="input-box" type="text">
     <div id="log-container"></div> -->
 
-		<h1>Draw a line</h1>
+		<!-- <h1>Draw a line</h1>
 		<canvas id="drawboard" width="400" height="400"></canvas>
+		<div id="log-container"></div> -->
+
+		<h1>Get some comments</h1>
+		<button id="btn">Click me!</button>
 		<div id="log-container"></div>
 
 		<script src="main.js"></script>
