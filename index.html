@@ -10,14 +10,14 @@
 				display: flex;
 				flex-wrap: wrap;
 			}
-			#log-container {
+			/* #log-container {
 				font-size: 20px;
 				flex-grow: 1;
 				width: 150px;
 			}
 			#log-container > div {
 				margin-bottom: 10px;
-			}
+			} */
 			#grid {
 				height: 500px;
 				width: 500px;
@@ -56,6 +56,17 @@
 				text-align: center;
 				margin-bottom: 40px;
 			}
+
+			#drawboard {
+				position: absolute;
+				left: 40px;
+				border: 2px solid;
+			}
+			#log-container {
+				position: fixed;
+				top: 40px;
+				right: 20px;
+			}
 		</style>
 	</head>
 	<body>
@@ -75,9 +86,13 @@
 		<div id="scrollable-space"></div>
 		<div id="footer">You've reached the end of the page</div> -->
 
-		<h1>Write something</h1>
+		<!-- <h1>Write something</h1>
     <input id="input-box" type="text">
-    <div id="log-container"></div>
+    <div id="log-container"></div> -->
+
+		<h1>Draw a line</h1>
+		<canvas id="drawboard" width="400" height="400"></canvas>
+		<div id="log-container"></div>
 
 		<script src="main.js"></script>
 	</body>
