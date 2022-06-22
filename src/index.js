@@ -21,7 +21,8 @@
 // import example from './05 - combinacion/20 - zip-merge';
 // import example from './05 - combinacion/21 - concat-forkjoin';
 // import example from './05 - combinacion/22 - combinelatest-withlatestfrom';
-import example from './05 - combinacion/23 - mergeall-mergemap';
+// import example from './06 - HOO/23 - mergeall-mergemap';
+import example from './06 - HOO/24 - switchmap-concatmap';
 
 //run stuff
 example();
