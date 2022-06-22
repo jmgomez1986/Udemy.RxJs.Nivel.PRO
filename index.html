@@ -68,12 +68,12 @@
 				right: 20px;
 			} */
 
-			#log-container {
+			/* #log-container {
 				position: fixed;
 				top: 80px;
 				right: 20px;
 				max-width: 320px;
-			}
+			} */
 
 			/* #log-container {
 				position: fixed;
@@ -95,6 +95,12 @@
 			#form > div > * {
 				flex-grow: 1;
 			} */
+
+			#log-container {
+				max-width: 100px;
+				text-align: center;
+				font-size: 4em;
+			}
 		</style>
 	</head>
 	<body>
@@ -122,9 +128,9 @@
 		<canvas id="drawboard" width="400" height="400"></canvas>
 		<div id="log-container"></div> -->
 
-		<h1>Get some comments</h1>
+		<!-- <h1>Get some comments</h1>
 		<button id="btn">Click me!</button>
-		<div id="log-container"></div>
+		<div id="log-container"></div> -->
 
 		<!-- <h1>Submit form</h1>
 		<form id="form">
@@ -143,6 +149,13 @@
 			<button id="btn" type="button">Add contact</button>
 		</form>
 		<div id="log-container"></div> -->
+
+		<h1>10s timer</h1>
+		<div class="butons">
+			<button id="pause-btn">Pause</button>
+			<button id="resume-btn">Resume</button>
+		</div>
+		<div id="log-container"></div>
 
 		<script src="main.js"></script>
 	</body>

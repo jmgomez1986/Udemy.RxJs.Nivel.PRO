@@ -24,7 +24,8 @@
 // import example from './06 - HOO/23 - mergeall-mergemap';
 // import example from './06 - HOO/24 - switchmap-concatmap';
 // import example from './06 - HOO/25 - arrays';
-import example from './07 - utilidades avanzadas/26 - throwerror-catcherror-retry';
+// import example from './07 - utilidades avanzadas/26 - throwerror-catcherror-retry';
+import example from './07 - utilidades avanzadas/27 - never-empty';
 
 //run stuff
 example();
