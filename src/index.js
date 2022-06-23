@@ -26,7 +26,8 @@
 // import example from './06 - HOO/25 - arrays';
 // import example from './07 - utilidades avanzadas/26 - throwerror-catcherror-retry';
 // import example from './07 - utilidades avanzadas/27 - never-empty';
-import example from './07 - utilidades avanzadas/28 - materialize-dematerialize';
+// import example from './07 - utilidades avanzadas/28 - materialize-dematerialize';
+import example from './08 - proyecto/29 - tic-tac-toe';
 
 //run stuff
 example();
