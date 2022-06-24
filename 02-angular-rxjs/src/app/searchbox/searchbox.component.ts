@@ -6,6 +6,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { NgModel } from '@angular/forms';
+import { debounceTime } from 'rxjs/operators';
 
 @Component({
   selector: 'app-searchbox',
@@ -20,6 +21,8 @@ export class SearchboxComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.searchBox.valueChanges.subscribe((evt) => this.value.emit(evt));
+    this.searchBox.valueChanges
+      .pipe(debounceTime(300))
+      .subscribe((evt) => this.value.emit(evt));
   }
 }
